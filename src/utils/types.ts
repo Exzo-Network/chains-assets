@@ -129,8 +129,8 @@ export class Token implements IToken {
       case 'TT20':
         json['t'] = 'T';
         break;
-      case 'EXZO':
-        json['t'] = 'EX';
+      case 'XZO':
+        json['t'] = 'X';
         break;
       case '':
         json['t'] = undefined;
